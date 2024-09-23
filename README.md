@@ -38,7 +38,7 @@ In this case, the forks are in the middle of the table instead of each being sha
     cd 42_philosophers
     make
     ```
-3. Run `./philosophers {number_of_philosophers} {time_to_die} {time_to_eat} {time_to_sleep} {[number_of_times_each_philosopher_must_eat]}`
+3. Run `./philosophers {number_of_philosophers} {time_to_die} {time_to_eat} {time_to_sleep} {[number_of_times_each_philosopher_must_eat]}`</br>
     ```bash
     ./philosophers  5 400 100 200
     ```
@@ -48,7 +48,7 @@ In this case, the forks are in the middle of the table instead of each being sha
     cd 42_philosophers
     make bonus
     ```
-3. Run `./philosophers_bonus {number_of_philosophers} {time_to_die} {time_to_eat} {time_to_sleep} {[number_of_times_each_philosopher_must_eat]}`
+3. Run `./philosophers_bonus {number_of_philosophers} {time_to_die} {time_to_eat} {time_to_sleep} {[number_of_times_each_philosopher_must_eat]}`</br>
     ```bash
     ./philosophers_bonus  5 400 100 200 10
     ```
