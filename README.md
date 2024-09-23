@@ -38,9 +38,9 @@ In this case, the forks are in the middle of the table instead of each being sha
     cd 42_philosophers
     make
     ```
-3. Run `./philosophers `
+3. Run `./philosophers {number_of_philosophers} {time_to_die} {time_to_eat} {time_to_sleep} {[number_of_times_each_philosopher_must_eat]}`
     ```bash
-    ./philosophers 
+    ./philosophers  5 400 100 200
     ```
 ### Bonus part
 2. Go inside project directory and run `make bonus`
@@ -48,8 +48,8 @@ In this case, the forks are in the middle of the table instead of each being sha
     cd 42_philosophers
     make bonus
     ```
-3. Run `./philosophers_bonus `
+3. Run `./philosophers_bonus {number_of_philosophers} {time_to_die} {time_to_eat} {time_to_sleep} {[number_of_times_each_philosopher_must_eat]}`
     ```bash
-    ./philosophers_bonus 
+    ./philosophers_bonus  5 400 100 200 10
     ```
 </br>
